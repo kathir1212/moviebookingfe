@@ -40,11 +40,7 @@ function Showtimelist() {
     console.log(id, "ididididi");
   
     try {
-      const res = await axios.get(`https://moviebookingserver-ojrj.onrender.com/threater/threaterlist`, {
-        headers: {
-          Authorization: `Bearer ${token}`,
-        },
-      });
+      const res = await axios.get(`https://moviebookingserver-ojrj.onrender.com/threater/threaterlist`);
   
       const threaterlists = res.data;
       console.log(threaterlists, "aninini");
