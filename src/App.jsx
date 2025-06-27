@@ -69,12 +69,12 @@ function App() {
               <img src={logo} className="h-[3rem]" alt="Logo" />
             </a>
 
-            <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+            <div className="flex md:order-2 space-x-4 md:space-x-0 rtl:space-x-reverse">
               <img id="avatarButton" className="w-10 h-10 rounded-full cursor-pointer" src={Profile} alt="User" />
               {/* Logout Button */}
               <button
                 onClick={logout}
-                className="text-white bg-red-500 px-4 py-2 rounded-lg"
+                className="text-white bg-red-500 px-4 py-2 rounded-lg ml-[10%]"
               >
                 Logout
               </button>
